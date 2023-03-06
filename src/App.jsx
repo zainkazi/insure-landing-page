@@ -1,3 +1,6 @@
+import Different from "./components/Different";
+import FindMore from "./components/FIndMore";
+import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 
@@ -6,6 +9,9 @@ function App() {
     <div>
       <Header />
       <Hero />
+      <Different />
+      <FindMore />
+      <Footer />
     </div>
   );
 }
