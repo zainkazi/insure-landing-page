@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.font-dm {
+  font-family: "DM Serif Display", serif;
+}
+
+.font-karla {
+  font-family: "Karla", sans-serif;
+}
