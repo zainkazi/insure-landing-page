@@ -9,6 +9,7 @@ const FindMore = () => {
         className="block md:hidden w-60 opacity-70 absolute right-0 top-0"
         src={patternMobile}
       />
+
       <img
         className="hidden md:block opacity-70 absolute right-0 top-0"
         src={patternDesktop}
