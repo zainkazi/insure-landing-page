@@ -45,7 +45,7 @@ const Hero = () => {
             expertise and technology to help you find the plan that’s right for
             you. Ensure you and your loved ones are protected.
           </div>
-          <div className="transition z-[1] font-semibold duration-300 w-48 md:w-auto cursor-pointer opacity-70 hover:text-white text-[#fafafa] hover:bg-white hover:text-[#2b272e] hover:opacity-100 py-3 px-10 border-2 border-white]">
+          <div className="transition z-[1] font-semibold duration-300 w-48 md:w-auto cursor-pointer opacity-70 hover:text-[#2d2640] text-[#fafafa] hover:bg-white hover:text-[#2b272e] hover:opacity-100 py-3 px-10 border-2 border-white]">
             VIEW PLANS
           </div>
         </div>

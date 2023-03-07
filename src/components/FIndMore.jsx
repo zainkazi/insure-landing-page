@@ -19,7 +19,7 @@ const FindMore = () => {
       <h1 className="font-dm text-5xl md:text-[70px]">
         Find out more <br /> about how we work
       </h1>
-      <div className="z-[10] transition duration-300 md:w-auto font-semibold cursor-pointer opacity-70 hover:text-white text-[#fafafa] hover:bg-white hover:opacity-100 py-3 px-10 border-2 border-white] hover:text-[#2b272e]">
+      <div className="z-[10] transition duration-300 md:w-auto font-semibold cursor-pointer opacity-70 hover:text-[#2d2640] text-[#fafafa] hover:bg-white hover:opacity-100 py-3 px-10 border-2 border-white] hover:text-[#2b272e]">
         HOW WE WORK
       </div>
     </div>
