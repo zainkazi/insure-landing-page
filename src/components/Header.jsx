@@ -79,7 +79,7 @@ const Header = () => {
         <div className="transition duration-300 cursor-pointer hover:text-[#2b272f] py-3">
           ACCOUNT
         </div>
-        <div className="transition duration-300 font-semibold cursor-pointer hover:text-[#2d2640] hover:bg-[#2b272f] py-2 px-10 border-[3px] border-black">
+        <div className="transition duration-300 font-semibold cursor-pointer hover:text-white hover:bg-[#2b272f] py-2 px-10 border-[3px] border-black">
           VIEW PLANS
         </div>
       </div>
