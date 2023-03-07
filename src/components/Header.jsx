@@ -31,21 +31,21 @@ const Header = () => {
 
   return (
     <div
-      className={`font-karla bg-[#fafafa] text-[#837d87] text-xl md:text-base flex justify-between items-center px-8 md:px-40 py-10 md:py-4`}
+      className={`font-karla bg-[#fafafa] text-[#837d87] text-xl md:text-base flex justify-between items-center px-8 md:px-40 py-6 md:py-4`}
     >
       <div>
-        <img className="w-44 md:w-36" src={logo} alt="logo" />
+        <img className="w-32 md:w-36" src={logo} alt="logo" />
       </div>
       <div className="block md:hidden">
         <img
           onClick={toggleHamburger}
-          className={`${displayHamburger} w-16`}
+          className={`${displayHamburger} w-9`}
           src={hamburgerMenu}
           alt="menu"
         />
         <img
           onClick={toggleHamburger}
-          className={`${displayClose} w-16`}
+          className={`${displayClose} w-9`}
           src={iconClose}
           alt="menu"
         />
@@ -53,10 +53,10 @@ const Header = () => {
 
       {/* Navbar Mobile */}
       <div
-        className={`transition-all duration-500 ease-in-out ${translateMenu} fixed z-40 overflow-y-auto text-3xl bg-[#2b272f] text-[#fafafa] top-36 left-0 right-0 bottom-0 flex flex-col justify-start items-center space-y-16 pt-24`}
+        className={`transition-all duration-500 ease-in-out ${translateMenu} fixed z-40 overflow-y-auto text-lg bg-[#2b272f] text-[#fafafa] top-20 left-0 right-0 bottom-0 flex flex-col justify-start items-center space-y-12`}
       >
         <img
-          className="absolute bottom-0 right-0 w-full"
+          className="absolute bottom-0 right-0 w-full opacity-20 z-[0]"
           src={patternNavMobile}
           alt="pattern"
         />
