@@ -34,7 +34,7 @@ const Header = () => {
       className={`font-karla bg-[#fafafa] text-[#837d87] text-xl md:text-base flex justify-between items-center px-8 md:px-40 py-10 md:py-4`}
     >
       <div>
-        <img className="w-44 md:w-36" src={logo} />
+        <img className="w-44 md:w-36" src={logo} alt="logo" />
       </div>
       <div className="block md:hidden">
         <img
@@ -58,6 +58,7 @@ const Header = () => {
         <img
           className="absolute bottom-0 right-0 w-full"
           src={patternNavMobile}
+          alt="pattern"
         />
         <div className="">HOW WE WORK</div>
         <div className="">BLOG</div>

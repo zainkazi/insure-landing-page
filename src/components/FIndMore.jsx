@@ -8,16 +8,18 @@ const FindMore = () => {
       <img
         className="block md:hidden w-60 opacity-70 absolute right-0 top-0"
         src={patternMobile}
+        alt="pattern"
       />
 
       <img
         className="hidden md:block opacity-70 absolute right-0 top-0"
         src={patternDesktop}
+        alt="pattern"
       />
       <h1 className="font-dm text-5xl md:text-[70px]">
         Find out more <br /> about how we work
       </h1>
-      <div className="transition duration-300 md:w-auto font-semibold cursor-pointer opacity-70 hover:text-white text-[#fafafa] hover:bg-white hover:text-[#2d2640] hover:opacity-100 py-3 px-10 border-2 border-white]">
+      <div className="z-[10] transition duration-300 md:w-auto font-semibold cursor-pointer opacity-70 hover:text-white text-[#fafafa] hover:bg-white hover:text-black hover:opacity-100 py-3 px-10 border-2 border-white]">
         HOW WE WORK
       </div>
     </div>

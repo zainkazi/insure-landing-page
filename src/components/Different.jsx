@@ -6,8 +6,8 @@ import DifferentFeature from "./DifferentFeature";
 
 const Different = () => {
   return (
-    <div className="font-karla pt-20 pb-40 md:pt-60 md:px-48 text-center md:text-left">
-      <hr className="opacity-80 bg-black mx-40 md:mx-0 md:w-52 text-center mt-12 mb-8 self-center" />
+    <div className="font-karla pt-20 pb-40 md:pt-[15%] md:px-48 text-center md:text-left">
+      <hr className="border-[2px] bg-black mx-40 md:mx-0 md:w-52 text-center mt-12 mb-8 self-center" />
       <h1 className="font-dm text-[65px] mb-16">We're different</h1>
       <div className="flex flex-col justify-center items-center md:flex-row md:justify-between md:space-x-10 space-y-16 md:space-y-0">
         <DifferentFeature
