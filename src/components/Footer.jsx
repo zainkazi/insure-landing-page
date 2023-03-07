@@ -11,12 +11,12 @@ const Footer = () => {
   return (
     <div className="px-20 md:px-52 bg-[#fafafa] mt-20 -mb-10 pb-10 text-center md:text-left relative">
       <img
-        className="block md:hidden absolute top-0 left-0"
+        className="block z-[0] md:hidden absolute top-0 left-0"
         src={patternMobile}
         alt="pattern"
       />
       <img
-        className="hidden md:block absolute top-0 left-0"
+        className="hidden z-[0] md:block absolute top-0 left-0"
         src={patternDesktop}
         alt="pattern"
       />
@@ -24,7 +24,7 @@ const Footer = () => {
       <div className="pt-20 pb-10 flex flex-col md:flex-row justify-center md:justify-between items-center space-y-8 md:space-y-0 border-b-2 border-gray-300">
         {/* Logo */}
         <div>
-          <img className="w-40" src={logo} alt="pattern" />
+          <img className="w-40 relative z-[1]" src={logo} alt="logo" />
         </div>
 
         {/* Social Media */}
